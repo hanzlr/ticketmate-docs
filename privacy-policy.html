@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — TicketMate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --blurple: #5865F2;
+      --text: #e3e5e8;
+      --muted: #8b8fa8;
+      --radius: 12px;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 2rem 1rem 4rem;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      margin-bottom: 2rem;
+      transition: color 0.2s;
+    }
+
+    .back:hover { color: var(--text); }
+
+    .badge {
+      display: inline-block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.78rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .effective {
+      color: var(--muted);
+      font-size: 0.875rem;
+      margin-bottom: 2.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 2rem 0 0.75rem;
+      color: var(--text);
+    }
+
+    p { color: #b5b9cc; margin-bottom: 0.75rem; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.875rem;
+    }
+
+    th {
+      background: var(--surface);
+      color: var(--muted);
+      text-align: left;
+      padding: 0.6rem 1rem;
+      border: 1px solid var(--border);
+      font-weight: 500;
+    }
+
+    td {
+      padding: 0.6rem 1rem;
+      border: 1px solid var(--border);
+      color: #b5b9cc;
+    }
+
+    tr:nth-child(even) td { background: #15171f; }
+
+    a { color: var(--blurple); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    blockquote {
+      border-left: 3px solid var(--blurple);
+      padding: 0.75rem 1rem;
+      background: var(--surface);
+      border-radius: 0 8px 8px 0;
+      margin: 1rem 0;
+      color: #b5b9cc;
+      font-size: 0.9rem;
+    }
+
+    .footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    .footer a { color: var(--muted); }
+    .footer a:hover { color: var(--text); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back" href="./">← Back</a>
+
+    <div class="badge">Legal</div>
+    <h1>Privacy Policy</h1>
+    <p class="effective">Effective Date: June 22, 2026</p>
+
+    <p>This Privacy Policy explains how TicketMate ("the Bot") collects, uses, and stores your data. By using the Bot, you agree to this policy.</p>
+
+    <h2>1. What Data We Collect</h2>
+    <p>When TicketMate is used in a Discord server, the following data may be collected and stored:</p>
+    <table>
+      <tr><th>Data</th><th>Purpose</th></tr>
+      <tr><td>Discord server (guild) ID</td><td>Identify which server the Bot is configured for</td></tr>
+      <tr><td>Discord channel IDs</td><td>Store panel, archive, and ticket channel references</td></tr>
+      <tr><td>Discord user IDs and usernames</td><td>Track ticket ownership and user actions</td></tr>
+      <tr><td>Ticket status and timestamps</td><td>Manage open/closed ticket state</td></tr>
+      <tr><td>Message content (transcripts)</td><td>Generate ticket transcripts upon closing</td></tr>
+    </table>
+
+    <h2>2. How We Use Your Data</h2>
+    <p>The data collected is used solely to provide the Bot's core functionality: creating and managing ticket channels, tracking ticket ownership and status, generating transcripts when a ticket is closed, and restoring channels if they are accidentally deleted.</p>
+    <p>We do not use your data for advertising, analytics, or any purpose beyond operating the Bot.</p>
+
+    <h2>3. Data Storage</h2>
+    <p>All data is stored securely in <a href="https://firebase.google.com/">Google Firebase Firestore</a>. Firebase is a third-party service governed by <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. We do not store data on any other external servers.</p>
+
+    <h2>4. Data Sharing</h2>
+    <p>We do not sell, trade, or share your data with any third parties, except as required by law.</p>
+
+    <h2>5. Data Retention</h2>
+    <p>Server configuration data is retained as long as the Bot remains in your server. Ticket data is retained indefinitely unless manually cleared. Server administrators can delete all stored data for their server at any time by running <code>/reset</code>.</p>
+    <blockquote>Note: Transcript threads in #ticket-archive exist within Discord and are subject to Discord's own data retention policies.</blockquote>
+
+    <h2>6. Your Rights</h2>
+    <p>Depending on your location, you may have the right to access the data we hold about you, request deletion of your data, or object to how your data is processed. To exercise these rights, please open an issue on our <a href="https://github.com/hanzlr/ticketmate-bot">GitHub repository</a> or contact us directly.</p>
+
+    <h2>7. Children's Privacy</h2>
+    <p>TicketMate is not directed at children under the age of 13. We do not knowingly collect data from children under 13. If you believe a child has provided us with their data, please contact us and we will take steps to remove it.</p>
+
+    <h2>8. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. The effective date at the top of this document will reflect the most recent update. Continued use of the Bot after changes constitutes your acceptance of the updated policy.</p>
+
+    <h2>9. Contact</h2>
+    <p>If you have any questions or concerns about this Privacy Policy, feel free to open an issue on our <a href="https://github.com/hanzlr/ticketmate-bot">GitHub repository</a>.</p>
+
+    <div class="footer">
+      <a href="./">TicketMate Docs</a> · <a href="./terms-of-service">Terms of Service</a> · Made by <a href="https://github.com/hanzlr">hanzlr</a>
+    </div>
+  </div>
+</body>
+</html>
