@@ -65,7 +65,7 @@ Depending on your location, you may have the right to:
 - Request deletion of your data
 - Object to how your data is processed
 
-To exercise these rights, please open an issue on our [GitHub repository](https://github.com/hanzlr/ticketmate) or contact us directly.
+To exercise these rights, please open an issue on our [GitHub repository](https://github.com/hanzlr/ticketmate-bot) or contact us directly.
 
 ---
 
@@ -83,4 +83,4 @@ We may update this Privacy Policy from time to time. The effective date at the t
 
 ## 9. Contact
 
-If you have any questions or concerns about this Privacy Policy, feel free to open an issue on our [GitHub repository](https://github.com/hanzlr/ticketmate).
+If you have any questions or concerns about this Privacy Policy, feel free to open an issue on our [GitHub repository](https://github.com/hanzlr/ticketmate-bot).
