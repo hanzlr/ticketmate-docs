@@ -75,4 +75,4 @@ We may update these Terms of Service from time to time. Continued use of the Bot
 
 ## 9. Contact
 
-If you have any questions about these Terms, feel free to open an issue on our [GitHub repository](https://github.com/hanzlr/ticketmate).
+If you have any questions about these Terms, feel free to open an issue on our [GitHub repository](https://github.com/hanzlr/ticketmate-bot).
