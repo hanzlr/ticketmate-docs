@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Service — TicketMate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f1117;
+      --surface: #1a1d27;
+      --border: #2a2d3a;
+      --blurple: #5865F2;
+      --text: #e3e5e8;
+      --muted: #8b8fa8;
+      --radius: 12px;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 2rem 1rem 4rem;
+      line-height: 1.7;
+    }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      margin-bottom: 2rem;
+      transition: color 0.2s;
+    }
+
+    .back:hover { color: var(--text); }
+
+    .badge {
+      display: inline-block;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.78rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .effective {
+      color: var(--muted);
+      font-size: 0.875rem;
+      margin-bottom: 2.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 2rem 0 0.75rem;
+      color: var(--text);
+    }
+
+    p { color: #b5b9cc; margin-bottom: 0.75rem; }
+
+    ul {
+      color: #b5b9cc;
+      padding-left: 1.25rem;
+      margin-bottom: 0.75rem;
+    }
+
+    ul li { margin-bottom: 0.35rem; }
+
+    a { color: var(--blurple); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+    .footer a { color: var(--muted); }
+    .footer a:hover { color: var(--text); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a class="back" href="./">← Back</a>
+
+    <div class="badge">Legal</div>
+    <h1>Terms of Service</h1>
+    <p class="effective">Effective Date: June 22, 2026</p>
+
+    <p>By inviting or using TicketMate ("the Bot") in your Discord server, you agree to these Terms of Service. If you do not agree, please remove the Bot from your server.</p>
+
+    <h2>1. Description of Service</h2>
+    <p>TicketMate is a Discord bot that provides a ticket management system for Discord servers. It allows server members to open, manage, and close support tickets, with transcripts saved automatically.</p>
+
+    <h2>2. Usage Requirements</h2>
+    <ul>
+      <li>You must comply with <a href="https://discord.com/terms">Discord's Terms of Service</a> and <a href="https://discord.com/guidelines">Community Guidelines</a> at all times.</li>
+      <li>You must be at least 13 years old (or the minimum age required in your country) to use Discord and therefore this Bot.</li>
+      <li>Server administrators are responsible for how the Bot is used within their server.</li>
+    </ul>
+
+    <h2>3. Acceptable Use</h2>
+    <p>You agree not to use TicketMate to:</p>
+    <ul>
+      <li>Harass, abuse, or harm other users</li>
+      <li>Spam or flood ticket channels</li>
+      <li>Attempt to exploit or abuse the Bot's functionality</li>
+      <li>Violate any applicable laws or regulations</li>
+    </ul>
+    <p>We reserve the right to block access to the Bot for servers or users who violate these terms.</p>
+
+    <h2>4. Data Collection</h2>
+    <p>TicketMate collects and stores the following data via Firebase Firestore: Discord server (guild) ID, channel IDs, user IDs and usernames, ticket status and timestamps, and ticket transcripts (message content). This data is used solely to provide the Bot's functionality. We do not sell or share your data with third parties.</p>
+    <p>For more details, please read our <a href="./privacy-policy">Privacy Policy</a>.</p>
+
+    <h2>5. Data Retention</h2>
+    <p>Ticket and configuration data is retained as long as the Bot remains in your server. Server administrators can reset all data at any time using the <code>/reset</code> command.</p>
+
+    <h2>6. Availability</h2>
+    <p>TicketMate is provided on an "as is" basis. We do not guarantee 100% uptime or uninterrupted service. The Bot may be taken offline for maintenance or updates at any time without prior notice.</p>
+
+    <h2>7. Limitation of Liability</h2>
+    <p>To the fullest extent permitted by law, the developer of TicketMate shall not be liable for any indirect, incidental, or consequential damages arising from the use or inability to use the Bot.</p>
+
+    <h2>8. Changes to These Terms</h2>
+    <p>We may update these Terms of Service from time to time. Continued use of the Bot after changes are made constitutes your acceptance of the new terms. The effective date at the top of this document will be updated accordingly.</p>
+
+    <h2>9. Contact</h2>
+    <p>If you have any questions about these Terms, feel free to open an issue on our <a href="https://github.com/hanzlr/ticketmate-bot">GitHub repository</a>.</p>
+
+    <div class="footer">
+      <a href="./">TicketMate Docs</a> · <a href="./privacy-policy">Privacy Policy</a> · Made by <a href="https://github.com/hanzlr">hanzlr</a>
+    </div>
+  </div>
+</body>
+</html>
