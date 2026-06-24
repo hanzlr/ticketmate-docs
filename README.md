@@ -11,8 +11,8 @@
 
 | Document | Description |
 |---|---|
-| [Terms of Service](./terms-of-service.md) | Rules and conditions for using TicketMate |
-| [Privacy Policy](./privacy-policy.md) | How TicketMate collects and handles your data |
+| [Terms of Service](https://hanzlr.github.io/ticketmate-docs/terms-of-service) | Rules and conditions for using TicketMate |
+| [Privacy Policy](https://hanzlr.github.io/ticketmate-docs/privacy-policy) | How TicketMate collects and handles your data |
 
 ---
 
