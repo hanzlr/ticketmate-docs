@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hanzlr/ticketmate-bot/main/assets/banner.png" alt="TicketMate Banner" width="100%">
+  <img src="assets/banner.png" alt="TicketMate Banner" width="100%">
 
   <h1>TicketMate Docs</h1>
   <p>Legal documents for TicketMate — a simple and reliable Discord ticket bot.</p>
